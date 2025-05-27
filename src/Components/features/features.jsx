@@ -1,5 +1,5 @@
 import React from "react";
-import './Features.css';
+import './features.css';
 import bgImage from './bg.jpg';
 
 const features = [
