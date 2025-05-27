@@ -1,0 +1,167 @@
+.custom-footer {
+  background-color: #111;
+  color: #5f616d;
+  padding: 3rem 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.brand_dets {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.brand_dets h5{
+  font-weight: 600;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 0;     
+  background: none;
+  display: block;
+}
+
+
+.footer-title {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.footer-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-list li {
+  margin-bottom: 0.4rem;
+  transition: color 0.3s;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.brand-name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.footer-block h6 {
+  padding-left: 0;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.footer-block p {
+  margin: 1px;
+}
+
+.footer-contact .footer-block {
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact h6 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact p {
+  margin: 0.25rem 0;
+  color: #778ca3;
+  font-size: 0.95rem;
+}
+
+.form_dets input,
+.form_dets textarea {
+  background-color: #f1f1f1;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.form_dets input:focus,
+.form_dets textarea:focus {
+  border-color: #5f616d;
+  background-color: #fff;
+  outline: none;
+}
+
+.form_submit {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  font-weight: 600;
+  padding: 0.65rem 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+}
+
+.form_submit:hover {
+  background-color: #5f616d;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .custom-footer {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .brand_dets {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .footer-title,
+  .brand-name {
+    font-size: 1.1rem;
+  }
+
+  .footer-list {
+    padding-left: 0;
+  }
+
+  .footer-list li {
+    font-size: 0.95rem;
+  }
+
+  .footer-block {
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-contact {
+    text-align: center;
+  }
+
+  .form_dets {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .form_dets input,
+  .form_dets textarea {
+    font-size: 1rem;
+  }
+
+  .form_submit {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,109 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.hero-left {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-left h1 {
+  font-size: 2rem;
+  font-weight:600;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.hero-left p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.hero-form {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.7rem 1rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hero-button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #070707;
+  color: #a0a4b8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.hero-button:hover {
+  color: #ffff;
+  background-color: #3d4147;
+}
+
+
+.hero-right {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-right h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.product-table {
+  width: auto;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-table td {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #ccc;
+  background-color: #060606;
+  color: #9fa3b7;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.product-table td:hover {
+  background-color: #3d4147;
+  color: #ffff;
+
+}

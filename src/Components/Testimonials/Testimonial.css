@@ -1,0 +1,93 @@
+.slick-slide > div {
+  margin: 0 10px;
+}
+.testimonial-page {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.testimonial-card {
+ flex: 0 0 280px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  position: relative;
+}
+
+.content-wrapper {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  position: relative;
+}
+
+.read-more-button {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  background: none;
+  border: none;
+  color: #0d6efd;
+  cursor: pointer;
+  padding: 0;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.role {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #444;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex: 0 0 240px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-card {
+    flex: 0 0 200px;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .role {
+    font-size: 0.85rem;
+  }
+
+  .content {
+    font-size: 0.9rem;
+  }
+}
