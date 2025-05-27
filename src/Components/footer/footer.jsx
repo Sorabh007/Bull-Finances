@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import './Footer.css';
+import './footer.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
 import logoFooter from './logo_2.png';
